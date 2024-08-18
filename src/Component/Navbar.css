@@ -1,0 +1,88 @@
+.nav-containe{
+    max-width:100%;
+    
+}
+.nav{
+   
+
+    margin: 0 auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   background-color: black;
+    backdrop-filter: blur(10px);
+    color:goldenrod;
+
+    
+   
+    
+    
+}
+.logo{
+    display:flex;
+    gap: 130px;
+      margin-right: 8%;
+    align-items: center;
+}
+
+.logo-home1{
+    background: transparent;
+}
+.name h4{
+    border: 1px solid goldenrod;
+    padding: 10px;
+    border-radius: 5px;
+
+    
+    
+}
+a{
+    color:goldenrod;
+}
+.name a:hover{
+    color: chartreuse;
+}
+
+   
+li{
+    list-style-type:none ;
+    background: none;
+    font-weight:bolder;
+    color:goldenrod;
+    
+}
+a:Link{
+    text-decoration: none;
+    
+}
+@media(max-width:450px){
+    .name h4{
+        border: 1px solid goldenrod;
+        padding: 5px;
+        border-radius: 5px;
+          margin-right: 10px;
+        
+        
+    }
+    .logo{
+        display:flex;
+        gap:10px;
+          margin-right: 2%;
+        align-items: center;
+        font-size: 10px;
+    }
+
+
+    .name{
+        font-size: 12px;
+        padding: 5px;
+        
+        
+    }
+    li{
+    font-size:13px;
+    }
+  
+} 
