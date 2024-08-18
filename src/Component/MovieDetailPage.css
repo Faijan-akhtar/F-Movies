@@ -312,7 +312,7 @@
 
     .movie__links {
         width: 100%; /* Ensure links fit within viewport */
-        top: 0px;
+        top: 150px;
         margin-right: 10px;
         bottom: 60px; /* Adjusted for better positioning */
         display: flex;
@@ -323,7 +323,8 @@
     .movie__heading {
         font-size: 1.4rem; /* Reduced font size */
         text-align: center; /* Center align heading */
-        margin-top: 20px;
+        margin-top: 10px;
+        display:none;
     }
 
     .movie__Button {
